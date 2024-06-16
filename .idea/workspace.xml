@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c398f0aa-ef80-48dd-ae90-bc0c99d109b8" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/StrLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/Linear_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Inheritance_Multiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA/Pattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,56 +46,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Abstract_Method.executor": "Run",
-    "Application.Abstraction.executor": "Run",
-    "Application.Addition.executor": "Run",
-    "Application.ArrayListExample.executor": "Run",
-    "Application.Array_Addition.executor": "Run",
-    "Application.Array_IMP.executor": "Run",
-    "Application.Array_Input.executor": "Run",
-    "Application.Bank_Constructor.executor": "Run",
-    "Application.Compile_Time_Polymorphism.executor": "Run",
-    "Application.Counter.executor": "Run",
-    "Application.Encapsulation.executor": "Run",
-    "Application.Garbage_Collector.executor": "Run",
-    "Application.HashMapExample.executor": "Run",
-    "Application.HashSetExample.executor": "Run",
-    "Application.HeyName.executor": "Run",
-    "Application.Hierarchical_Inheritance.executor": "Run",
-    "Application.InterFace_Methods.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Multilevel_Inheritance.executor": "Run",
-    "Application.Multiple_Inheritance.executor": "Run",
-    "Application.MyThread.executor": "Run",
-    "Application.MyThreadRunnable.executor": "Run",
-    "Application.Number_Table.executor": "Run",
-    "Application.OneDArray.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PassByReference.executor": "Run",
-    "Application.PassByValue.executor": "Run",
-    "Application.Pattern.executor": "Run",
-    "Application.Prime_Number.executor": "Run",
-    "Application.Queue.executor": "Run",
-    "Application.ReversedString.executor": "Run",
-    "Application.ReversedStringOneLine.executor": "Run",
-    "Application.Run_Time_Polymorphism.executor": "Run",
-    "Application.SecondLastElement.executor": "Run",
-    "Application.Stack.executor": "Run",
-    "Application.StrLen.executor": "Run",
-    "Application.String_Swap.executor": "Run",
-    "Application.TestMultiThreading.executor": "Run",
-    "Application.TwoDArray.executor": "Run",
-    "Application.Wrapper.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/TCS_NQT/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstract_Method.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_Addition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_IMP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_Input.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bank_Constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Compile_Time_Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Counter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Garbage_Collector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeyName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hierarchical_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterFace_Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linear_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Multilevel_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Multiple_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThreadRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_Table.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OneDArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassByReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassByValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversedString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversedStringOneLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run_Time_Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLastElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrLen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String_Swap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMultiThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/TCS_NQT/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718198560595</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1718200182270</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718200182270</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
