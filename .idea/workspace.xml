@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c398f0aa-ef80-48dd-ae90-bc0c99d109b8" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/DSA/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA/rotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Inheritance_Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Inheritance_Multiple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
     "Application.Array_Input.executor": "Run",
     "Application.Bank_Constructor.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.Candy.executor": "Run",
     "Application.Compile_Time_Polymorphism.executor": "Run",
     "Application.Counter.executor": "Run",
     "Application.Encapsulation.executor": "Run",
@@ -80,6 +83,7 @@
     "Application.Pattern.executor": "Run",
     "Application.Prime_Number.executor": "Run",
     "Application.Queue.executor": "Run",
+    "Application.ReverseBack.executor": "Run",
     "Application.ReversedString.executor": "Run",
     "Application.ReversedStringOneLine.executor": "Run",
     "Application.Run_Time_Polymorphism.executor": "Run",
@@ -90,6 +94,7 @@
     "Application.TestMultiThreading.executor": "Run",
     "Application.TwoDArray.executor": "Run",
     "Application.Wrapper.executor": "Run",
+    "Application.rotateArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -194,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718530784530</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1718531743226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718531743226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
